@@ -1,0 +1,6 @@
+@SubliColor_APP.Server_HostAddress = http://localhost:5182
+
+GET {{SubliColor_APP.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

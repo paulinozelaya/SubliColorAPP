@@ -1,0 +1,55 @@
+.navbar-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ajusta el tamaño del logo */
+.home-logo-navbar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.navbar-start{
+  display: flex;
+  align-items: center;
+}
+
+/* Contenido central del navbar */
+.navbar-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 1rem;
+  z-index: 1; /* Asegura que esté visible sobre el Menubar */
+}
+
+/* Botones del navbar */
+.navbar-icon {
+  background: transparent;
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Contenido final */
+.navbar-end {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

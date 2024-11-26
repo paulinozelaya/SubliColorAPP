@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "eL2mc/7UKcAByKT0yBlz8+XqHd0x1bodIi0x1mjwhgY=",
+  "Source": "SubliColor_APP.Server",
+  "BasePath": "_content/SubliColor_APP.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\pzelaya\\source\\repos\\SubliColor_APP\\sublicolor_app.client\\sublicolor_app.client.esproj",
+      "Version": 2,
+      "Source": "sublicolor_app.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
